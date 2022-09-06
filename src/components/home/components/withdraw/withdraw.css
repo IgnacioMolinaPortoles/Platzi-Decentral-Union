@@ -1,0 +1,45 @@
+.withdrawWrapper {
+  font-family: monospace;
+  font-weight: 100;
+  font-size: 20px;
+  min-width: 420px;
+  padding: 20px;
+}
+
+.withdrawTextInput {
+  background-color: var(--secondary-bg-color);
+  border: 1px solid var(--main-color);
+  border-radius: 3px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: 98%;
+}
+
+.widthdrawSeparator {
+    border-top: 1px solid #333;
+    /* margin-top: 25px; */
+    margin-bottom: 10px;
+}
+
+.withdrawTextInput:focus{
+    outline: none;
+}
+
+.titleWithdrawWrapper {
+  margin-block-start: 0;
+  margin-block-end: 15px;
+}
+
+.withdrawDescription {
+  font-size: 14px;
+}
+
+.withdrawNoteValue {
+    font-size: 14px;
+    margin-bottom: 20px;
+}

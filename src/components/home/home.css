@@ -1,0 +1,42 @@
+.homeWrapper {
+  display: flex;
+  width: 70vw;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-bg-color);
+  font-size: 18px;
+  align-items: center;
+}
+
+.panelWrapper {
+  background-color: #171819;
+  width: fit-content;
+}
+
+.selectorWrapper {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  background: var(--main-bg-color);
+}
+
+.selectorButton {
+  background-color: var(--main-color);
+  padding: 5px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.selectorButton-opacity {
+  opacity: 0.2;
+}

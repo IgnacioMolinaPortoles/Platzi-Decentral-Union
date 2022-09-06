@@ -1,0 +1,16 @@
+:root {
+  --main-bg-color: #020502;
+  --main-color: #fd0;
+  --secondary-bg-color: #171819;
+}
+
+.App {
+  background-color: var(--main-bg-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
